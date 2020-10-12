@@ -1,0 +1,91 @@
+@media screen and (max-width:425px){
+    nav{
+        width: 100vw;
+    }
+    
+    header{
+        height: 50vh;
+    }
+
+    .header-txt h1{
+        font-size: 2rem;
+        font-weight: 100;
+    }
+
+    .header-txt p{
+        font-size: .8rem;
+    }
+
+    .sec2{
+        height: 450vh;
+    }
+
+    .sec2>.s2-txt h1{
+        font-size: 1.5rem;
+        white-space: nowrap;
+        /* border: 2px solid red; */
+    }
+
+    .s2-main{
+        height: 400vh;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(6,16%);
+        grid-row-gap: 1rem;
+    }
+
+    .sec2{
+        overflow: hidden;
+    }
+
+    .s2-txt h1{
+        font-size: 1rem !important;
+    }
+
+    .s2-txt p{
+        padding: 0 40px;
+        /* border: 2px solid red; */
+        box-sizing: border-box;
+        font-size: .8rem;
+    }
+
+    .s2-main{
+        overflow: hidden;
+    }
+
+    .s2-card p:nth-child(2){
+        font-size: 1.2rem;
+        white-space: nowrap;
+    }
+
+    .s3-txt h1{
+        font-size: 1.3rem;
+    }
+
+    .sec4>.s2-txt h1{
+        font-size: 1.3rem;
+    }
+
+    .sec4{
+        height: 200vh;
+    }
+
+    .s4-main{
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3,30%);
+        height: 150vh;
+        
+    }
+
+    footer{
+        height: 200vh;
+    }
+
+    .f-txt{
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3,30%);
+    }
+
+    .f-txt .f1:nth-child(1){
+        grid-area: 1/1/2/2;
+    }
+}
